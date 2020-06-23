@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Second &mdash; Free Wallpapers</title>
+
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="icon" href="images/logo2.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+  <head>
+      <div class="site-wrap">
+
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <header class="header-bar d-flex d-lg-block align-items-center" data-aos="fade-left">
+    <div class="site-logo">
+      <a href="index.html">Second</a>
+    </div>
+    
+    <div class="d-inline-block d-xl-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+    <div class="main-menu">
+      <ul class="js-clone-nav">
+        <li><a href="index.html">Wallpapers</a></li>
+          <!-- <li><a href="photos.html">Photos</a></li>-->
+           <!--<li><a href="bio.html">Bio</a></li> -->
+       <!-- <li><a href="blog.html">Blog</a></li> -->
+        <li class="active"><a href="data.html">Publish</a></li>
+      </ul>
+      
+    </div>
+    <p></p>
+  </header> 
+  <main class="main-content">
+    <div class="container-fluid photos">
+      <div class="row justify-content-center">
+        
+        <div class="col-md-6 pt-4"  data-aos="fade-up">
+          <h2 class="text-white mb-4">Publish Your Work</h2>
+
+          <div class="row">
+            <div class="col-md-12">
+              <p class="mb-5">Hello beautiful! To publish your wallpaper design/photo, fill out the form below. Please submit the accepted size of your design. You will be informed when your design is admitted and published. </p>
+               <p> Your first name and wallpaper title will be public. Your email will not be shared. You will receive thank you messages from the users as they download your work.</p>
+              
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/629/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
+</head>
+<body>
+  <form id="myForm">
+  <label class="text-white" >Full Name</label>
+    <br/>
+    <input class="form-control" name="full_name" />
+    <br/>
+<label class="text-white" >Email</label>    <br/>
+    <input class="form-control" name="email" />
+    <br/>
+   <label class="text-white" >I want my name to be displayed</label>
+    <br/>
+    <input  type="radio" id="age" name="privacy" value="Yes" /> Yes, display my name.<br/>
+    <input  type="radio" id="age" name="privacy" value="No" /> No, don't display my name.<br/>
+    <br/>
+    <label class="text-white" >Wallpaper Title</label>
+    <br/>
+    <input class="form-control" name="title">
+    </input>
+
+    <br/>
+    <br/>
+     <label class="text-white" >Please paste the Google Drive link of the wallpaper. (Be sure that your work is public on Google Drive)</label>
+  
+   <i>Accepted Sizes: 1280 x 1024 / 1366 x 768 / 1920 x 1080</i>
+    <br/>
+    <br/>
+  
+
+    <input class="form-control" name="file" >
+
+      <br/> 
+   <br/>
+  </form>
+  <button class = "btn btn-primary btn-md text-white" onclick="SubForm()">Submit</button>
+    <br/> 
+   <br/>
+     <br/> 
+   <br/>
+</body>
+</html>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
